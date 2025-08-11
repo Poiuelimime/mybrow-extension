@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discord RPC Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 18px;
+            color: #333;
+        }
+        label {
+            font-size: 14px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="options.js"></script>
+</head>
+<body>
+    <h1>Discord RPC Settings</h1>
+    <label for="customStatus">Custom Status Message:</label><br>
+    <input type="text" id="customStatus" placeholder="Enter custom status">
+    <br><br>
+    <button onclick="saveSettings()">Save</button>
+</body>
+</html>
